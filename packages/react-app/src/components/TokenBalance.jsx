@@ -18,12 +18,12 @@ export default function TokenBalance(props) {
   }
 
   if (usingBalance) {
-    const etherBalance = utils.formatEther(usingBalance);
+    const etherBalance = usingBalance;
     parseFloat(etherBalance).toFixed(2);
     floatBalance = parseFloat(etherBalance);
   }
 
-  let displayBalance = floatBalance.toFixed(4);
+  let displayBalance = floatBalance.toFixed(0);
 
   if (props.dollarMultiplier && dollarMode) {
     displayBalance = "$" + (floatBalance * props.dollarMultiplier).toFixed(2);
