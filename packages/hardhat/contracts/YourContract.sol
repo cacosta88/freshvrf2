@@ -90,7 +90,7 @@ contract YourContract is VRFConsumerBaseV2,ERC721Enumerable, Ownable {
     COORDINATOR = VRFCoordinatorV2Interface(vrfCoordinator);
     //defining the subscription id for the chainlink oracle
     s_subscriptionId = 2017;
-    canmintnft[0x8f9b1b9EAabE5A1CAd1C432Cb9AE03B9840661de] = true;
+    //canmintnft[0x8f9b1b9EAabE5A1CAd1C432Cb9AE03B9840661de] = true;
     
 
   }
