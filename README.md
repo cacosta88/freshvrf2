@@ -1,8 +1,11 @@
 # 🏗 Scaffold-ETH: Gamification to mitigate ownership concentration issues
 
-> everything you need to build on Ethereum! 🚀
+> The illustrative proof of concept app gamifies the minting of an on-chain NFT, providing a speedbump to mass
+            minting by any single actor. It accomplishes this by requiring that the player randomly draws a prime number
+            between 1 and 100 before being able to mint a NFT. Being able to win a portion of the accumulated balance
+            provides the risk/reward element of the game. The gameplay is designed to teach basic concepts of Ethereum
+            and blockchain technology to new users. 🚀
 
-🧪 Quickly experiment with Solidity using a frontend that adapts to your smart contract:
 
 ![image](https://user-images.githubusercontent.com/2653167/124158108-c14ca380-da56-11eb-967e-69cde37ca8eb.png)
 
