@@ -42,7 +42,7 @@ yarn deploy
 ```
 
 🔏 You can find the core smart contract `YourContract.sol` in `packages/hardhat/contracts`. You will need to update this file for your own subscrition ID (check out the constructor within the `YourContract.sol` file) to make it work.
-go here (https://vrf.chain.link/) to create and manage your subscriptions. 
+go here (https://vrf.chain.link/) to create and manage your subscriptions (i.e. add your newly deployed smart contract to the list of consumers). 
 
 📝 Edit your frontend `App.jsx` in `packages/react-app/src`
 
