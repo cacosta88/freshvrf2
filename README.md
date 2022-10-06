@@ -6,6 +6,7 @@
             provides the risk/reward element of the game. The gameplay is designed to teach basic concepts of Ethereum
             and blockchain technology to new users. 🚀
 
+> The smart contract `YourContract.sol` contains detailed comments regarding the relevant smart contract considerations for this build
 
 
 # 🏄‍♂️ Quick Start
@@ -40,7 +41,7 @@ cd freshvrf2
 yarn deploy
 ```
 
-🔏 You can find the core smart contract `YourContract.sol` in `packages/hardhat/contracts`. You will need to update this file for your own subscrition ID (check out the constructor within the YourContract.sol file) to make it work.
+🔏 You can find the core smart contract `YourContract.sol` in `packages/hardhat/contracts`. You will need to update this file for your own subscrition ID (check out the constructor within the `YourContract.sol` file) to make it work.
 go here (https://vrf.chain.link/) to create and manage your subscriptions. 
 
 📝 Edit your frontend `App.jsx` in `packages/react-app/src`
