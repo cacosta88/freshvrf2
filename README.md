@@ -1,4 +1,4 @@
-# 🏗 Scaffold-ETH
+# 🏗 Scaffold-ETH: Gamification to mitigate ownership concentration issues
 
 > everything you need to build on Ethereum! 🚀
 
