@@ -8,45 +8,8 @@
 
 > The smart contract `YourContract.sol` contains detailed comments regarding the relevant smart contract considerations for this build
 
-
-# 🏄‍♂️ Quick Start
-
-Prerequisites: [Node (v16 LTS)](https://nodejs.org/en/download/) plus [Yarn](https://classic.yarnpkg.com/en/docs/install/) and [Git](https://git-scm.com/downloads)
-
-> clone/fork this
-
-```bash
-git clone https://github.com/cacosta88/freshvrf2.git
-```
-
-> install and start your 👷‍ Hardhat chain:
-
-```bash
-cd freshvrf2
-yarn install
-yarn chain
-```
-
-> in a second terminal window, start your 📱 frontend:
-
-```bash
-cd freshvrf2
-yarn start
-```
-
-> in a third terminal window, 🛰 deploy your contract:
-
-```bash
-cd freshvrf2
-yarn deploy
-```
-
 🔏 You can find the core smart contract `YourContract.sol` in `packages/hardhat/contracts`. You will need to update this file for your own subscrition ID (check out the constructor within the `YourContract.sol` file) to make it work.
 go here (https://vrf.chain.link/) to create and manage your subscriptions (i.e. add your newly deployed smart contract to the list of consumers). 
-
-📝 Edit your frontend `App.jsx` in `packages/react-app/src`
-
-💼 Edit your deployment scripts in `packages/hardhat/deploy`
 
 📱 You will need to deploy it to Goerli to make it work
 
